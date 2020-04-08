@@ -17,6 +17,11 @@
     </g>
   </svg>
 </template>
+<script>
+export default {
+  name: 'Home'
+}
+</script>
 <style>
 .NuxtLogo {
   animation: 1s appear;
