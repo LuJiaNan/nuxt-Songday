@@ -1392,6 +1392,10 @@
   version "2.0.1"
   resolved "http://192.168.200.178:4873/@types%2fmime/-/mime-2.0.1.tgz#dc488842312a7f075149312905b5e3c0b054c79d"
 
+"@types/minimatch@^3.0.3":
+  version "3.0.3"
+  resolved "http://192.168.200.178:4873/@types%2fminimatch/-/minimatch-3.0.3.tgz#3dca0e3f33b200fc7d1139c0cd96c1268cadfd9d"
+
 "@types/node-sass@^4.11.0":
   version "4.11.0"
   resolved "http://192.168.200.178:4873/@types%2fnode-sass/-/node-sass-4.11.0.tgz#b0372075546e83f39df52bd37359eab00165a04d"
@@ -1923,6 +1927,10 @@ arr-union@^3.1.0:
   version "3.1.0"
   resolved "http://192.168.200.178:4873/arr-union/-/arr-union-3.1.0.tgz#e39b09aea9def866a8f206e288af63919bae39c4"
 
+array-differ@^3.0.0:
+  version "3.0.0"
+  resolved "http://192.168.200.178:4873/array-differ/-/array-differ-3.0.0.tgz#3cbb3d0f316810eafcc47624734237d6aee4ae6b"
+
 array-equal@^1.0.0:
   version "1.0.0"
   resolved "http://192.168.200.178:4873/array-equal/-/array-equal-1.0.0.tgz#8c2a5ef2472fd9ea742b04c77a75093ba2757c93"
@@ -1939,6 +1947,10 @@ array-ify@^1.0.0:
   version "1.0.0"
   resolved "http://192.168.200.178:4873/array-ify/-/array-ify-1.0.0.tgz#9e528762b4a9066ad163a6962a364418e9626ece"
 
+array-union@^2.1.0:
+  version "2.1.0"
+  resolved "http://192.168.200.178:4873/array-union/-/array-union-2.1.0.tgz#b798420adbeb1de828d84acd8a2e23d3efe85e8d"
+
 array-unique@^0.3.2:
   version "0.3.2"
   resolved "http://192.168.200.178:4873/array-unique/-/array-unique-0.3.2.tgz#a894b75d4bc4f6cd679ef3244a9fd8f46ae2d428"
@@ -1946,6 +1958,10 @@ array-unique@^0.3.2:
 arrify@^1.0.1:
   version "1.0.1"
   resolved "http://192.168.200.178:4873/arrify/-/arrify-1.0.1.tgz#898508da2226f380df904728456849c1501a4b0d"
+
+arrify@^2.0.1:
+  version "2.0.1"
+  resolved "http://192.168.200.178:4873/arrify/-/arrify-2.0.1.tgz#c9655e9331e0abcd588d2a7cad7e9956f66701fa"
 
 asn1.js@^4.0.0:
   version "4.10.1"
@@ -3664,6 +3680,20 @@ execa@^1.0.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
+execa@^2.1.0:
+  version "2.1.0"
+  resolved "http://192.168.200.178:4873/execa/-/execa-2.1.0.tgz#e5d3ecd837d2a60ec50f3da78fd39767747bbe99"
+  dependencies:
+    cross-spawn "^7.0.0"
+    get-stream "^5.0.0"
+    is-stream "^2.0.0"
+    merge-stream "^2.0.0"
+    npm-run-path "^3.0.0"
+    onetime "^5.1.0"
+    p-finally "^2.0.0"
+    signal-exit "^3.0.2"
+    strip-final-newline "^2.0.0"
+
 execa@^3.4.0:
   version "3.4.0"
   resolved "http://192.168.200.178:4873/execa/-/execa-3.4.0.tgz#c08ed4550ef65d858fac269ffc8572446f37eb89"
@@ -3893,7 +3923,7 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
-find-up@^4.0.0:
+find-up@^4.0.0, find-up@^4.1.0:
   version "4.1.0"
   resolved "http://192.168.200.178:4873/find-up/-/find-up-4.1.0.tgz#97afe7d6cdc0bc5928584b7c8d7b16e8a9aa5d19"
   dependencies:
@@ -4364,7 +4394,7 @@ human-signals@^1.1.1:
   version "1.1.1"
   resolved "http://192.168.200.178:4873/human-signals/-/human-signals-1.1.1.tgz#c5b1cd14f50aeae09ab6c59fe63ba3395fe4dfa3"
 
-husky@4.2.3:
+husky@^4.2.3:
   version "4.2.3"
   resolved "http://192.168.200.178:4873/husky/-/husky-4.2.3.tgz#3b18d2ee5febe99e27f2983500202daffbc3151e"
   dependencies:
@@ -5746,6 +5776,10 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
+mri@^1.1.4:
+  version "1.1.5"
+  resolved "http://192.168.200.178:4873/mri/-/mri-1.1.5.tgz#ce21dba2c69f74a9b7cf8a1ec62307e089e223e0"
+
 ms@2.0.0:
   version "2.0.0"
   resolved "http://192.168.200.178:4873/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -5757,6 +5791,16 @@ ms@2.1.1:
 ms@^2.1.1:
   version "2.1.2"
   resolved "http://192.168.200.178:4873/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+
+multimatch@^4.0.0:
+  version "4.0.0"
+  resolved "http://192.168.200.178:4873/multimatch/-/multimatch-4.0.0.tgz#8c3c0f6e3e8449ada0af3dd29efb491a375191b3"
+  dependencies:
+    "@types/minimatch" "^3.0.3"
+    array-differ "^3.0.0"
+    array-union "^2.1.0"
+    arrify "^2.0.1"
+    minimatch "^3.0.4"
 
 mustache@^2.3.0:
   version "2.3.2"
@@ -5945,6 +5989,12 @@ npm-run-path@^2.0.0:
   resolved "http://192.168.200.178:4873/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
   dependencies:
     path-key "^2.0.0"
+
+npm-run-path@^3.0.0:
+  version "3.1.0"
+  resolved "http://192.168.200.178:4873/npm-run-path/-/npm-run-path-3.1.0.tgz#7f91be317f6a466efed3c9f2980ad8a4ee8b0fa5"
+  dependencies:
+    path-key "^3.0.0"
 
 npm-run-path@^4.0.0:
   version "4.0.1"
@@ -6982,6 +7032,17 @@ pretty-format@^24.9.0:
     ansi-regex "^4.0.0"
     ansi-styles "^3.2.0"
     react-is "^16.8.4"
+
+pretty-quick@^2.0.1:
+  version "2.0.1"
+  resolved "http://192.168.200.178:4873/pretty-quick/-/pretty-quick-2.0.1.tgz#417ee605ade98ecc686e72f63b5d28a2c35b43e9"
+  dependencies:
+    chalk "^2.4.2"
+    execa "^2.1.0"
+    find-up "^4.1.0"
+    ignore "^5.1.4"
+    mri "^1.1.4"
+    multimatch "^4.0.0"
 
 pretty-time@^1.1.0:
   version "1.1.0"

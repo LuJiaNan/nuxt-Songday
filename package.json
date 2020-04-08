@@ -17,7 +17,7 @@
     "cross-env": "^5.2.0",
     "element-ui": "^2.4.11",
     "express": "^4.16.4",
-    "husky": "4.2.3",
+    "husky": "^4.2.3",
     "nuxt": "^2.0.0"
   },
   "devDependencies": {
@@ -26,12 +26,14 @@
     "babel-jest": "^24.1.0",
     "jest": "^24.1.0",
     "nodemon": "^1.18.9",
+    "pretty-quick": "^2.0.1",
     "ts-jest": "^25.0.0",
     "vue-jest": "^4.0.0-0"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "pretty-quick --staged",
       "pre-push": "npm test"
     }
   }
