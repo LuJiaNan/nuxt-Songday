@@ -1,9 +1,9 @@
 import { mount } from "@vue/test-utils";
-import Index from "@/pages/index.vue";
+import Home from "@/components/Home.vue";
 
-describe("Index", () => {
+describe("Home", () => {
   test.skip("is a Vue instance", () => {
-    const wrapper = mount(Index);
+    const wrapper = mount(Home);
     expect(wrapper.isVueInstance()).toBeTruthy();
   });
 });
